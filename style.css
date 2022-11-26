@@ -117,3 +117,32 @@ main .main-container .main-infos-content .button-content button:hover{
 main .main-container .main-image{
  width: 500px;
 }
+.social-container{
+    position: absolute;
+    right: 20px;
+    top: 40%;   
+}
+.social-container a .social-item{
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.social-container a .social-item.instagram:hover{
+    background-color: #E4405F;
+    color: white;
+    transition: 0.3s;
+}
+
+.social-container a .social-item.github:hover{
+    background-color: #232020;
+    color: white;
+    transition: 0.3s;
+    
+}
